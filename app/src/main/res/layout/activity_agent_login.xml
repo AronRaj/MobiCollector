@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/scrollView1"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8e8e7"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#13b586"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+        <ImageView android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/news_icon"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MobiCollector"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="25dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            android:layout_gravity="center_horizontal|center_vertical"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/greybackground"
+        >
+
+        <ImageView android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/news_icon_2"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <AutoCompleteTextView android:layout_width="fill_parent"
+            android:id="@+id/agentId"
+            android:layout_height="40dp"
+            android:hint="AgentName"
+            android:background="#f3f3f3"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText android:layout_width="fill_parent"
+            android:id="@+id/agentPassword"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:background="#f3f3f3"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"/>
+
+        <Button android:layout_width="190dp"
+            android:id="@+id/agentLoginButton"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Login"
+            android:textColor="#fff"
+            android:textSize="13dp"
+            android:background="#13b586"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+ </ScrollView>

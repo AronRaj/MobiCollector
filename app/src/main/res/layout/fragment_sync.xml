@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8e8e7"
+    tools:context="com.app.mobicollector.fragments.SyncFragment">
+
+
+    <Button
+        android:id="@+id/databaseButton"
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:text="database"
+        android:layout_marginTop="91dp"
+        android:background="@drawable/button"
+        android:layout_below="@+id/syncCustomerDataButton"
+        android:layout_alignLeft="@+id/syncCustomerDataButton"
+        android:layout_alignStart="@+id/syncCustomerDataButton" />
+
+    <Button
+        android:id="@+id/syncCustomerDataButton"
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:text="Sync Customers"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/syncCollectionButton"
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:background="@drawable/button"
+        android:text="Sync Collection"
+        android:layout_above="@+id/syncCustomerDataButton"
+        android:layout_alignLeft="@+id/syncCustomerDataButton"
+        android:layout_alignStart="@+id/syncCustomerDataButton"
+        android:layout_marginBottom="93dp" />
+
+</RelativeLayout>

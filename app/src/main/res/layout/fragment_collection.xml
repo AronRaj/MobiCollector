@@ -1,0 +1,94 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollViewCollection"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e8e8e7"
+        android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/greybackground"
+        >
+        <AutoCompleteTextView
+            android:layout_width="fill_parent"
+            android:id="@+id/customerNameAutoComplete"
+            android:layout_height="40dp"
+            android:hint="Customer Name"
+            android:background="#f3f3f3"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText android:layout_width="fill_parent"
+            android:id="@+id/customerId"
+            android:layout_height="40dp"
+            android:hint="Cutomer Id"
+            android:editable="false"
+            android:background="#f3f3f3"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText android:layout_width="fill_parent"
+            android:id="@+id/customer_address"
+            android:layout_height="80dp"
+            android:editable="false"
+            android:hint="Cutomer Address"
+            android:background="#f3f3f3"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText android:layout_width="fill_parent"
+            android:id="@+id/collectionAmount"
+            android:layout_height="40dp"
+            android:hint="Amount"
+            android:background="#f3f3f3"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"/>
+
+        <Button android:layout_width="190dp"
+            android:id="@+id/submitButton"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Pay"
+            android:textColor="#fff"
+            android:textSize="13dp"
+            android:background="#13b586"/>
+
+        <Button android:layout_width="190dp"
+            android:id="@+id/clearButton"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Clear"
+            android:textColor="#fff"
+            android:textSize="13dp"
+            android:background="#13b586"/>
+
+        <Button android:layout_width="190dp"
+            android:id="@+id/history_button"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="History"
+            android:textColor="#fff"
+            android:textSize="13dp"
+            android:background="#13b586"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

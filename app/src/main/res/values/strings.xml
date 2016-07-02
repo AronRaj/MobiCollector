@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MobiCollector</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="agent_name">Agent Name: </string>
+    <string name="agent_id">Agent ID: </string>
+    <string name="agent_password">Password: </string>
+
+    <string name="customer_name">Customer Name: </string>
+    <string name="customer_id">Customer ID: </string>
+    <string name="scustomer_address">Customer Address: </string>
+    <string name="colection_date">Customer Date: </string>
+    <string name="colection_amount">Collection Amount: </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="logout">Logout</string>
+</resources>
