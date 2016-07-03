@@ -66,6 +66,9 @@ public class AgentLoginActivity extends Activity implements Response.Listener, R
         agentId=(AutoCompleteTextView)findViewById(R.id.agentId);
         agentPassword=(EditText)findViewById(R.id.agentPassword);
         agentLoginButton=(Button)findViewById(R.id.agentLoginButton);
+        agentsList=mydb.getAgentsList();
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,agentsList);
+        agentId.setAdapter(adapter);
         agentLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
